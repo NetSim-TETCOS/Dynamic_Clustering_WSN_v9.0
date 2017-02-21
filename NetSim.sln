@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DSR", "DSR\DSR.vcxproj", "{4DA894F0-2A85-4697-96F6-29314576D48B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZigBee", "ZigBee\ZigBee.vcxproj", "{D85E1CBD-3374-43F6-A8B8-742DE8CBF26E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DA894F0-2A85-4697-96F6-29314576D48B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4DA894F0-2A85-4697-96F6-29314576D48B}.Debug|Win32.Build.0 = Debug|Win32
+		{4DA894F0-2A85-4697-96F6-29314576D48B}.Release|Win32.ActiveCfg = Release|Win32
+		{4DA894F0-2A85-4697-96F6-29314576D48B}.Release|Win32.Build.0 = Release|Win32
+		{D85E1CBD-3374-43F6-A8B8-742DE8CBF26E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D85E1CBD-3374-43F6-A8B8-742DE8CBF26E}.Debug|Win32.Build.0 = Debug|Win32
+		{D85E1CBD-3374-43F6-A8B8-742DE8CBF26E}.Release|Win32.ActiveCfg = Release|Win32
+		{D85E1CBD-3374-43F6-A8B8-742DE8CBF26E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

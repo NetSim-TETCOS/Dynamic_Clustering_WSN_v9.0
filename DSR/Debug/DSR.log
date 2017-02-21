@@ -1,0 +1,82 @@
+﻿Build started 08-12-2016 PM 12:54:58.
+     1>Project "C:\Users\Upal\Desktop\Projects_9_32bits\Dynamic Clustering\DSR\DSR.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\DSR.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+       InitializeBuildStatus:
+         Creating "Debug\DSR.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include /I..\ZigBee /I"C:\Program Files (x86)\MATLAB\R2011a\extern\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DSR_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt CheckRouteFound.c DSR.c Dynamic_Clustering.c MaintBuffer.c MATLAB_Interface.c Network_Layer_Ack.c PacketProcessing.c RouteCache.c RouteError.c RouteReply.c RouteRequest.c SendBuffer.c SourceRoute.c
+         SourceRoute.c
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\sourceroute.c(68): warning C4013: 'fn_NetSim_dynamic_clustering_CheckDestination' undefined; assuming extern returning int
+         SendBuffer.c
+         RouteRequest.c
+         RouteReply.c
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\routereply.c(193): warning C4018: '<' : signed/unsigned mismatch
+         RouteError.c
+         RouteCache.c
+         PacketProcessing.c
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\packetprocessing.c(42): warning C4013: 'fn_NetSim_dynamic_clustering_GetNextHop' undefined; assuming extern returning int
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\packetprocessing.c(33): warning C4101: 'gateWay' : unreferenced local variable
+         Network_Layer_Ack.c
+         MATLAB_Interface.c
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\matlab_interface.c(43): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\matlab_interface.c(49): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         MaintBuffer.c
+         Dynamic_Clustering.c
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\dynamic_clustering.c(60): warning C4013: 'fn_NetSim_dynamic_clustering_IdentifyCluster' undefined; assuming extern returning int
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\dynamic_clustering.c(53): warning C4101: 'nInterface' : unreferenced local variable
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\dynamic_clustering.c(56): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\dynamic_clustering.c(155): warning C4244: 'function' : conversion from 'double' to 'size_t', possible loss of data
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\dynamic_clustering.c(158): warning C4013: 'fn_netsim_dynamic_form_clusters' undefined; assuming extern returning int
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\dynamic_clustering.c(160): warning C4013: 'fn_netsim_assign_cluster_heads' undefined; assuming extern returning int
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\dynamic_clustering.c(166): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\dynamic_clustering.c(179): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\dynamic_clustering.c(202): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         DSR.c
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\dsr.c(193): warning C4013: 'fn_NetSim_dynamic_clustering_run' undefined; assuming extern returning int
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\dsr.c(259): warning C4018: '<' : signed/unsigned mismatch
+         CheckRouteFound.c
+         Generating Code...
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\dynamic_clustering.c(108): warning C4715: 'fn_NetSim_dynamic_clustering_IdentifyCluster' : not all control paths return a value
+     1>c:\users\upal\desktop\projects_9_32bits\dynamic clustering\dsr\dynamic_clustering.c(169): warning C4716: 'fn_NetSim_dynamic_clustering_run' : must return a value
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Upal\Desktop\Projects_9_32bits\Dynamic Clustering\DSR\..\Dll\DSR.dll) does not match the Linker's OutputFile property value (C:\Users\Upal\Desktop\Projects_9_32bits\Dynamic Clustering\Dll\libDSR.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(DSR) does not match the Linker's OutputFile property value (libDSR). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Dll\libDSR.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\lib /LIBPATH:"C:\Program Files (x86)\MATLAB\R2011a\extern\lib\win32\microsoft" libmx.lib libeng.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DSR.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Upal\Desktop\Projects_9_32bits\Dynamic Clustering\Dll\DSR.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Dll\DSR.lib" /MACHINE:X86 /DLL Debug\CheckRouteFound.obj
+         Debug\DSR.obj
+         Debug\Dynamic_Clustering.obj
+         Debug\MaintBuffer.obj
+         Debug\MATLAB_Interface.obj
+         Debug\Network_Layer_Ack.obj
+         Debug\PacketProcessing.obj
+         Debug\RouteCache.obj
+         Debug\RouteError.obj
+         Debug\RouteReply.obj
+         Debug\RouteRequest.obj
+         Debug\SendBuffer.obj
+         Debug\SourceRoute.obj List.lib DSR.lib NetworkStack.lib Metrics.lib 
+     1>CheckRouteFound.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         List.lib(List.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>CheckRouteFound.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+            Creating library ..\Dll\DSR.lib and object ..\Dll\DSR.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>List.lib(List.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'List.lib(List.obj)' or at 'C:\Users\Upal\Desktop\Projects_9_32bits\Dynamic Clustering\Dll\vc100.pdb'; linking object as if no debug info
+     1>DSR.lib(DSR.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DSR.lib(DSR.obj)' or at 'C:\Users\Upal\Desktop\Projects_9_32bits\Dynamic Clustering\Dll\vc100.pdb'; linking object as if no debug info
+     1>DSR.lib(LinkLayerAck.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'DSR.lib(LinkLayerAck.obj)' or at 'C:\Users\Upal\Desktop\Projects_9_32bits\Dynamic Clustering\Dll\vc100.pdb'; linking object as if no debug info
+         DSR.vcxproj -> C:\Users\Upal\Desktop\Projects_9_32bits\Dynamic Clustering\DSR\..\Dll\DSR.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\Dll\libDSR.dll;#2" /manifest Debug\DSR.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\DSR.unsuccessfulbuild".
+         Touching "Debug\DSR.lastbuildstate".
+     1>Done Building Project "C:\Users\Upal\Desktop\Projects_9_32bits\Dynamic Clustering\DSR\DSR.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.69
